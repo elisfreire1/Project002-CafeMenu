@@ -14,11 +14,13 @@ body{
 /*align itens menu*/
 .flavor{
     text-align: left;
-    width: 49%;
+    /*width: 49%;*/
+    width:75%;
 }
 .price{
     text-align: right;
-    width: 49%;
+    /*width: 49%;*/
+    width: 25%;
 }
 .item p {
     display: inline-block;
