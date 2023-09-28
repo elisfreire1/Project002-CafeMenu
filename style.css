@@ -52,3 +52,20 @@ hr{
 .bottom-line{
     margin-top: 25px;
 }
+/*FOOTER*/
+footer{
+    font-size: 14px;
+}
+a{/*Changing the default color of link*/
+    color: black;
+}
+/*Pseudo-selectors: looks like a:active { propertyName: propertyValue; }*/
+a:visited { /*changing the color when link is visited*/
+    color: black;
+}
+a:hover { /*changing the color when user mouse hover*/
+    color: brown;
+}
+a:active { /*changing the color when the link is actually being clicked */
+    color: brown;
+}
