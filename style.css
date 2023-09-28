@@ -40,6 +40,8 @@ h1, h2 {
 }
 h1{
     font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
 }
 h2{
     font-size: 30px;
@@ -51,6 +53,9 @@ hr{
 }
 .bottom-line{
     margin-top: 25px;
+}
+.address {
+    margin-top: 5px;
 }
 /*FOOTER*/
 footer{
