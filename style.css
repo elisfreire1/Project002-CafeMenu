@@ -5,6 +5,7 @@ body{
    /* background-color: burlywood; */
    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
    font-family: sans-serif;
+   padding: 20px;
 }
 .menu/* #menu */{
     width: /* 300px */ 80%;
@@ -18,7 +19,7 @@ body{
 .flavor, .dessert{
     text-align: left;
     /*width: 49%;*/
-    width:75%;
+    width: 75%;
 }
 .price{
     text-align: right;
@@ -27,6 +28,9 @@ body{
 }
 .item p {
     display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
 }
 h1, h2 {
     font-family: Impact, serif;
@@ -44,4 +48,7 @@ hr{
     height:2px; /*step67 3px and change to 2px in step70*/
     background-color:brown; /*step68*/
     border-color:brown; /*step69*/
+}
+.bottom-line{
+    margin-top: 25px;
 }
