@@ -12,7 +12,7 @@ body{
     margin-right: auto;
 }
 /*align itens menu*/
-.flavor{
+.flavor, .dessert{
     text-align: left;
     /*width: 49%;*/
     width:75%;
